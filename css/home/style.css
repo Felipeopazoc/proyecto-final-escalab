@@ -332,6 +332,7 @@
     color: white;
     font-family:Helvetica;
     font-size: 28px;
+    text-align: center;
 }
 .contenido cite{
     font-size: 24px;
@@ -353,6 +354,7 @@
     font-size: 35px;
     font-family: Helvetica;
     color: white;
+    text-decoration: underline;
 }
 
 .ventana_agregar{

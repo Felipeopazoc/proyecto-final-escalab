@@ -108,6 +108,17 @@
         height: 100px;
         
     }
+    .contenido{
+        width: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .formulario_agregar > h2{
+        font-size: 30px;
+    }
+    .box_input{
+        width: 85%;
+    }
 }
 
 @media only screen and (max-width:609px){
@@ -141,9 +152,25 @@
         width: 70%;
     
     }
+    .box_input > label{
+        font-size: 20px;
+    }
+    .box_input > input{
+        width: 200px;
+        height: 30px;
+    }
 }
-
-
+@media (max-width:542px){
+    .formulario_agregar > h2{
+        font-size: 25px;
+    }
+    .box_input > textarea{
+        width: 100px;
+    }
+    .ventana_agregar{
+        width: 80%;
+    }
+}
 
 @media (max-width: 523px) {
     .list-skills > li > img{
@@ -162,6 +189,39 @@
     .box-redes > a> img{
         width: 60px;
         height: 60px;
+    }
+}
+@media (max-width:454px) {
+    .experiencias h2{
+        font-size: 30px;
+    }
+    .formulario_agregar > h2{
+        font-size: 20px;
+    }
+    .contenido h3, p{
+        font-size: 24px;
+    }
+    .contenido{
+        width: 90%;
+    }
+   
+    .box_input > label{
+        font-size: 18px;
+    }
+    .box_input > input{
+        width: 180px;
+        height: 28px;
+    }
+}
+@media only screen and (max-width:417px){
+    .ventana_agregar{
+        width: 87%;
+    }
+    .contenido h3, p {
+        font-size: 17px;
+    }
+    .experiencias h2{
+        font-size: 25px;
     }
 }
 
@@ -231,10 +291,6 @@
 
 }
 
-
-
-
-
 @media only screen and (max-width:375px){
     .box{
         width: 85%;
@@ -265,6 +321,11 @@
     }
 }
 
+@media (max-width:360px){
+    .formulario_agregar > h2{
+        font-size: 17px;
+    }
+}
 
 
 
