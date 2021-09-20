@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.main-container{
+    width: 99.9%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    background-color: #394e7c;
+    display: flex;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    border-bottom: 1px solid white;
+}
+.icono{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.nav{
+    width: 80%;
+}
+.nav2{
+    width: 80%;
+    display: none;
+}
+
+.nav > ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav > ul > li{
+    padding-top: 20px;
+}
+.nav > ul > li > a{
+    padding-right: 35px;
+    padding-top: 10px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav > ul > li > a > img{
+    width: 35px;
+}
+.lista{
+    display: flex;
+    font-family: Helvetica;
+}
+.lista > img{
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.lista > img:hover{
+    font-size: 20px;
+    transition: .4s all;
+}
+.nav > ul > li > a:hover{
+    font-size: 20px;
+    transition: .4s all;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    background-image: url("../../img/presentacion.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 595px;
+    border-bottom: 1px solid white;
+}
+.hgroup{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 480px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+.hgroup h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.hgroup h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.hgroup h3{
+    font-size: 20px;
+}
+.btn{
+    text-decoration: none;
+    background-color:  #ff9500;
+    color: white;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+}
+
+.logotipo{
+    width: 50%;
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo > img{
+    width: 250px;
+    height: 200px;
+    padding: 30px;
+
+}
+
+
+.servicios{
+    width: 100%;
+    background-color: #4f000b;
+    opacity: 90%;
+    height: 460px;
+    border-bottom: 2px solid white;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+}
+
+.servicios h2{
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.boxs{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    
+
+}
+
+.box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+}
+.box > img{
+    width: 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.sobremi{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 580px;
+   align-items: center;
+   justify-content: center;
+   background-color: #2a9d8f;
+   border-bottom: 1px solid white;
+}
+
+.imagen{
+    display: flex;
+    width: 40%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.imagen > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+}
+.contenido-mio{
+    width: 40%;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.contenido-mio h2{
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-decoration: underline;
+}
+.contenido-mio p{
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1px;
+    color: white;
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    background-color: #5d2e46;
+    height:310px;
+}
+.redes h2{
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS';
+}
+.box-redes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-redes> a > img{
+
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.skills{
+    width: 100%;
+    background-color: #16697a;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.skills h2{
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    text-decoration: underline;
+}
+.list-skills{
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+}
+.list-skills > li >img{
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.experiencias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #FF5733 ;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.experiencias h2{
+    color: white;
+    font-family: Helvetica;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.contenido{
+    margin-top: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-radius: 59px;
+    height:250px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.5);
+}
+
+.contenido h3,p{
+    color: white;
+    font-family:Helvetica;
+    font-size: 28px;
+}
+.contenido cite{
+    font-size: 24px;
+    color: white;
+}
+
+.formulario_agregar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+   background-color: #3348bc; 
+}
+.formulario_agregar > h2{
+    font-size: 35px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.ventana_agregar{
+    width: 50%;
+    border-radius: 10px;
+    background: #2f72dd;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns > input{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+.box_input{
+    width: 90%;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.box_input > label{
+    font-size: 25px;
+    font-family: Helvetica;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box_input > input{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+}
+.box_input > select{
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box_input > textarea{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    font-size: 25px;
+    line-height: 55px;
+    color: white;
+    height: 50px;
+    font-family: Helvetica;
+}
+
+
+
+
+

@@ -1,0 +1,271 @@
+@media only screen and (max-width:1200px){
+    .contenido{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:1022px) {
+    .contenido{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:950px){
+    .contenido{
+        width: 70%;
+    }
+    .ventana_agregar{
+        width: 70%;
+    }
+    
+}
+
+@media only screen and(max-width:1030px){
+  
+    .contenido-mio{
+        width: 60%;
+    }
+    .nav2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:986px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .box{
+        width: 31%;
+        margin-right: 20px;
+    }
+    .imagen{
+        margin-right: 20px;
+        width: 30%;
+        
+    }
+    .imagen > img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@media only screen and(max-width:840px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .box{
+        width: 25%;
+    }
+    .sobremi{
+        flex-direction: column;
+        height: auto;
+    }
+    .contenido-mio{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:774px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .box{
+        width: 40%;
+        margin-left:5px;
+        height: 300px;
+    }
+    .contenido-mio{
+        width: 45%;
+    }
+}
+@media only screen and (max-width:690px){
+    .presentacion{
+        background-size: 100% 100%;
+    }
+    .servicios{
+        height: auto;
+    }
+    .boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 60%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .box h3{
+        font-size: 30px;
+        line-height: 70px;
+       
+    }
+    .list-skills > li >img{
+        width: 100px;
+    }
+    .box-redes{
+        height: 250px;
+    }
+    .box-redes >a>img{
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+
+@media only screen and (max-width:609px){
+    .hgroup{
+        width: 100%;
+    }
+    .hgroup h1{
+        line-height: 50px
+    }
+    .box h3{
+        font-size: 25px;
+        line-height: 70px;   
+    }
+    .list-skills > li >img{
+        width: 80px;
+        height: 80px;
+    }
+    .box-redes >a>img{
+        width: 80px;
+        height: 80px;
+        
+    }
+    .sobremi{
+        flex-direction: column;
+    }
+    .imagen{
+        width: 70%;
+        height: 250px;
+    }
+    .contenido-mio{
+        width: 70%;
+    
+    }
+}
+
+
+
+@media (max-width: 523px) {
+    .list-skills > li > img{
+        width: 69%;
+        height: 52%
+    }
+    .box{
+        width: 70%;
+    }
+    .skills{
+        height: 200px;
+    }
+    .redes{
+        height: 200px
+    }
+    .box-redes > a> img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width:404px){
+    .box-redes{
+        flex-direction: row;
+        
+    }
+    .box{
+        width: 80%;
+    }
+    .box-redes > a > img{
+        width: 40%;
+        height: 40%;
+
+    }
+    .img{
+        width: 30px;
+        height: 30px;
+       
+    }
+    .icono{
+        display: none;
+    }
+    .list-skills{
+        width: 100%;
+    }
+    .footer{
+        font-size: 20px;
+    }
+  
+}
+
+@media (max-width:585px) {
+    .icono{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav > ul{
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media only screen and (max-width:420px){
+    .lista > img{
+        display: none;
+    }
+   
+    .lista > a{
+        font-size:20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+   
+    .list-skills > li > img{
+        width: 75px;
+        height: 75px;
+        border-radius: 10px;
+    }
+    .header{
+        position: relative;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:375px){
+    .box{
+        width: 85%;
+        
+    }
+    .presentacion{
+        background-color: #14213d;
+        font-family: Helvetica;
+        background-image: none;
+    }
+    .hgroup{
+        color: white;
+    }
+    .box h3{
+        font-size: 22px;
+    }
+    .list-skills > li > img{
+        width: 65px;
+        height: 65px;
+    }
+  
+    .box-redes > a > img{
+        width: 55px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+
+    }
+}
+
+
+
+
+

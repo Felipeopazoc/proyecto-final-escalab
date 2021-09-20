@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felipe Opazo | Developer</title>
+  <link rel="stylesheet" href="css/home/style.css" />
+  <link rel="stylesheet" href="css/home/responsive.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <header class="header">
+      <div class="icono">
+        <img src="img/logotipo.svg" alt="" />
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li class="lista">
+            <img src="img/home.png" alt="home" />
+            <a href="#">Inicio</a>
+          </li>
+          <li class="lista">
+            <img src="img/resumen.png" alt="resumen" />
+            <a href="portafolio.html"> Portafolio</a>
+          </li>
+          
+          <li class="lista">
+            <img src="img/red.png" alt="mensaje" />
+            <a href="#redes">Mis redes</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="presentacion">
+      <hgroup class="hgroup">
+        <h1>Felipe Opazo Córdova</h1>
+        <h2>
+          Estudiante de Ingeniería de Ejecución en computación e informática
+        </h2>
+        <h3>Frontend Developer</h3>
+        <a class="btn" href="#servicios">Ver mis servicios</a>
+      </hgroup>
+    </section>
+    <section class="servicios" id="servicios">
+      <h2>Mis servicios</h2>
+      <div class="boxs">
+        <div class="box">
+          <h3>Mantención de computadores</h3>
+          <img src="img/formateo.png" alt="formateo" />
+        </div>
+        <div class="box">
+          <h3>Upgrade de HDD a SSD</h3>
+          <img src="img/disco-duro.png" alt="disco-duro" />
+        </div>
+        <div class="box">
+          <h3>Proximamente Páginas web</h3>
+          <img src="img/pagina.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="sobremi" id="resumen">
+      <div class="imagen">
+        <img src="img/fotomia.jpg" alt="fotomia" />
+      </div>
+      <div class="contenido-mio">
+        <h2>Mi Historia</h2>
+        <p>
+          "Siempre tuve el sueño de estudiar informática a pesar de no
+          tener un previo acercamiento con la programación, Sin embargo
+          a base de mucho esfuerzo y dedicación he podido entender a grandes rasgos
+          de lo que se trata este mundo tan hermoso de las tecnologías de la información,
+          Luchen por sus sueños!".
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul class="list-skills">
+        <li><img class="img" src="img/html-5.png" alt="" /></li>
+        <li><img class="img" src="img/css.png" alt="" /></li>
+        <li><img class="img" src="img/java.png" alt="" /></li>
+        <li><img class="img" src="img/c.png" alt="" /></li>
+      </ul>
+    </section>
+    <section class="experiencias">
+      <h2>Experiencias</h2>
+      <div class="contenido">
+        <h3>Developer - Liceo Saltos del Laja</h3>
+        <cite> 2020 - 2021</cite>
+        <p>Mantencion sitio web del establecimiento</p>
+      </div>
+    </section>
+
+    <section class="formulario_agregar">
+      <h2>Formulario para agregar experiencias</h2>
+      <div class="ventana_agregar">
+        <form class="form">
+          <div class="box_input">
+          <label for="institucion">Institución</label>
+          <input type="text" id="institucion" />
+          </div>
+          <div class="box_input">
+          <label for="anio_desde">Año desde </label>
+          <select name="anio_desde" id="select1">
+              <!--Se agregan los option con Javascript-->
+          </select>
+          </div>
+          <div class="box_input">
+          <label for="anio_termino">Año hasta</label>
+          <select name="anio_termino" id="select2">
+             <!--Se agregan los option con Javascript-->
+          </select>
+          </div>
+          <div class="box_input">
+          <label for="cargo">Cargo</label>
+          <input type="text" id="cargo" />
+          </div>
+          <div class="box_input">
+          <label for="descripcion">Descripcion del cargo</label>
+          <textarea name="" id="descripcion"></textarea>
+          </div>
+          <div class="btns">
+          <input type="button" value="Guardar experiencia" id="guardar"/>
+        </div>
+        </form>
+      </div>
+    </section>
+    <section class="redes" id="redes">
+      <h2>Redes Sociales</h2>
+      <div class="box-redes">
+        <a href="https://www.linkedin.com/in/felipe-opazo-63265a17b/"><img src="img/linkedin.png" alt="linkedin" /></a>
+        <a href="https://www.instagram.com/felipe_andres.o/"><img src="img/instagram.png" alt="instagram" /></a>
+        <a href="https://github.com/Felipeopazoc"><img src="img/github.png" alt="github" /></a>
+        <a href="https://web.facebook.com/felipe.opazocordovauc/"><img src="img/facebook.png" alt="facebook" /></a>
+      </div>
+    </section>
+
+    <footer class="footer">Todos los derechos reservados &copy; 2021</footer>
+  </div>
+  <script src="js/fechas.js"></script>
+  <script src="js/captura_informacion.js"></script>
+</body>
+
+</html>
