@@ -1,7 +1,6 @@
 
 let btn_guardar = document.getElementById("guardar");
 
-
 btn_guardar.addEventListener("click",(e)=>{
     e.preventDefault();
     let institucion = document.getElementById("institucion").value;
